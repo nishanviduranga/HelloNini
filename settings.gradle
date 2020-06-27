@@ -1,2 +1,4 @@
 rootProject.name='Hello_Nini_Chat'
 include ':app'
+include ':openCVLibrary310'
+include ':dlib'
