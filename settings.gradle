@@ -1,0 +1,2 @@
+rootProject.name='Hello_Nini_Chat'
+include ':app'

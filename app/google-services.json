@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "422381903428",
+    "firebase_url": "https://helloninichat.firebaseio.com",
+    "project_id": "helloninichat",
+    "storage_bucket": "helloninichat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422381903428:android:1a21d80dab663756ffa611",
+        "android_client_info": {
+          "package_name": "com.tharuke.hello_nini_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422381903428-di6peenrlit4asnpobo3uiu829oqbr5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tharuke.hello_nini_chat",
+            "certificate_hash": "a5e22bc43772c3024ee5de461e29b4ec54ad34f8"
+          }
+        },
+        {
+          "client_id": "422381903428-4upet3tg01b3nkt545djjissbr2h64q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcXjzoh0PIywv4GCAU_D9AHl_GPADcyJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422381903428-4upet3tg01b3nkt545djjissbr2h64q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
