@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat.Adapter;
+package com.nishan.hello_nini_chat.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,13 +10,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+//import androidx.recyclerview.widget.RecyclerView;
+
 import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.tharuke.hello_nini_chat.MessageActivity;
-import com.tharuke.hello_nini_chat.Model.Chat;
-import com.tharuke.hello_nini_chat.R;
-import com.tharuke.hello_nini_chat.Model.User;
+import com.nishan.hello_nini_chat.MessageActivity;
+import com.nishan.hello_nini_chat.Model.Chat;
+import com.nishan.hello_nini_chat.R;
+import com.nishan.hello_nini_chat.Model.User;
 
 import java.util.List;
 

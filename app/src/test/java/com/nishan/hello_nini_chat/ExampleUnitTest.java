@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat;
+package com.nishan.hello_nini_chat;
 
 import org.junit.Test;
 

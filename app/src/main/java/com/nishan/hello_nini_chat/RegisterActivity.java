@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat;
+package com.nishan.hello_nini_chat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,7 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         Toolbar toolbar= findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Register");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat.Fragments;
+package com.nishan.hello_nini_chat.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
@@ -31,8 +31,8 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
-import com.tharuke.hello_nini_chat.Model.User;
-import com.tharuke.hello_nini_chat.R;
+import com.nishan.hello_nini_chat.Model.User;
+import com.nishan.hello_nini_chat.R;
 
 import java.util.HashMap;
 

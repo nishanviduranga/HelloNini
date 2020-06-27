@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat.Model;
+package com.nishan.hello_nini_chat.Model;
 
 public class User {
 

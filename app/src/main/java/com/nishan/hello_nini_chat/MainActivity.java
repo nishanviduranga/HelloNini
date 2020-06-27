@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat;
+package com.nishan.hello_nini_chat;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -22,9 +22,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.tharuke.hello_nini_chat.Fragments.ChatsFragment;
-import com.tharuke.hello_nini_chat.Fragments.UsersFragment;
-import com.tharuke.hello_nini_chat.Model.User;
+import com.nishan.hello_nini_chat.Fragments.ChatsFragment;
+import com.nishan.hello_nini_chat.Fragments.UsersFragment;
+import com.nishan.hello_nini_chat.Model.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar= findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
 
 
@@ -60,12 +60,12 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 User user = dataSnapshot.getValue(User.class);
                 username.setText(user.getUsername());
-                if (user.getImageURL().equals("default")){
-                    profile_image.setImageResource(R.mipmap.ic_launcher);
-                }else{
-                    Glide.with(getApplicationContext()).load(user.getImageURL()).into(profile_image);
-
-                }
+//                if (user.getImageURL().equals("default")){
+//                    profile_image.setImageResource(R.mipmap.ic_launcher);
+//                }else{
+//                    Glide.with(getApplicationContext()).load(user.getImageURL()).into(profile_image);
+//
+//                }
             }
 
             @Override

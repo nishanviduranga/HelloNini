@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat;
+package com.nishan.hello_nini_chat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.rengwuxian.materialedittext.MaterialEditText;
+import com.nishan.hello_nini_chat.MainActivity;
+import com.nishan.hello_nini_chat.ResetPasswordActivity;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -32,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Toolbar toolbar= findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Login");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

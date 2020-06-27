@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat;
+package com.nishan.hello_nini_chat;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -22,9 +22,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.tharuke.hello_nini_chat.Adapter.MessageAdapter;
-import com.tharuke.hello_nini_chat.Model.Chat;
-import com.tharuke.hello_nini_chat.Model.User;
+import com.nishan.hello_nini_chat.Adapter.MessageAdapter;
+import com.nishan.hello_nini_chat.Model.Chat;
+import com.nishan.hello_nini_chat.Model.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -58,7 +58,7 @@ public class MessageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_message);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener(){
@@ -104,11 +104,11 @@ public class MessageActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 User user = dataSnapshot.getValue(User.class);
                 username.setText(user.getUsername());
-                if(user.getImageURL().equals("default")){
-                    profile_image.setImageResource(R.mipmap.ic_launcher);
-                }else{
-                    Glide.with(MessageActivity.this).load(user.getImageURL()).into(profile_image);
-                }
+//                if(user.getImageURL().equals("default")){
+//                    profile_image.setImageResource(R.mipmap.ic_launcher);
+//                }else{
+//                    Glide.with(MessageActivity.this).load(user.getImageURL()).into(profile_image);
+//                }
 
                 readMessages(fuser.getUid(),userid,user.getImageURL());
             }

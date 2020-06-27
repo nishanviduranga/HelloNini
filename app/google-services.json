@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:422381903428:android:1a21d80dab663756ffa611",
         "android_client_info": {
-          "package_name": "com.tharuke.hello_nini_chat"
+          "package_name": "com.nishan.hello_nini_chat"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "422381903428-di6peenrlit4asnpobo3uiu829oqbr5t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tharuke.hello_nini_chat",
+            "package_name": "com.nishan.hello_nini_chat",
             "certificate_hash": "a5e22bc43772c3024ee5de461e29b4ec54ad34f8"
           }
         },

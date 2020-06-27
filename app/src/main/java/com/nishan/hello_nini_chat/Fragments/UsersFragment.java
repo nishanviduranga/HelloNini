@@ -1,4 +1,4 @@
-package com.tharuke.hello_nini_chat.Fragments;
+package com.nishan.hello_nini_chat.Fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.tharuke.hello_nini_chat.Adapter.UserAdapter;
-import com.tharuke.hello_nini_chat.R;
-import com.tharuke.hello_nini_chat.Model.User;
+import com.nishan.hello_nini_chat.Adapter.UserAdapter;
+import com.nishan.hello_nini_chat.R;
+import com.nishan.hello_nini_chat.Model.User;
 
 import java.util.ArrayList;
 import java.util.List;
