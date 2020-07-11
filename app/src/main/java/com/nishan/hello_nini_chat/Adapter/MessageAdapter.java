@@ -24,13 +24,11 @@ import java.util.List;
 
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHolder> {
 
-    public static final int MSG_TYPE_LEFT = 0;
-    public static final int MSG_TYPE_RIGHT = 1;
+    private static final int MSG_TYPE_LEFT = 0;
+    private static final int MSG_TYPE_RIGHT = 1;
     private Context mContext;
     private List<Chat> mChat;
     private  String imageurl;
-
-    FirebaseUser fuser;
 
     public MessageAdapter(Context mContext, List<Chat> mChat, String imageurl){
         this.mChat = mChat;
@@ -99,8 +97,8 @@ public class ViewHolder extends RecyclerView.ViewHolder{
 
     @Override
     public int getItemViewType(int position) {
-        fuser = FirebaseAuth.getInstance().getCurrentUser();
-        if(mChat.get(position).getSender().equals(fuser.getUid())){
+        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        if(mChat.get(position).getSender().equals(firebaseUser.getUid())){
             return MSG_TYPE_LEFT;
         }else {
             return MSG_TYPE_LEFT;
